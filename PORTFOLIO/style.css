@@ -1,0 +1,890 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+}
+
+  .header {
+    width: 100%;
+    height: 100%;
+  }
+
+  section {
+    height: 100vh;
+
+    scroll-snap-align: start;
+}
+  /* NAVIGATION */
+  .nav
+  {
+    position: absolute;
+    width: 1536px;
+    height: 75px;
+    top: -10px;
+    left: 0px;
+  }
+
+  .navigation-box
+  {
+    position: absolute;
+    width: 1536px;
+    height: 75px;
+    background-color: #524A4E;
+  }
+ 
+  /* LOGO */
+  .box-logo
+  {
+    width: 65px;
+    height: 60px;
+  }
+
+  .butterfly-logo
+  {
+    position:absolute;
+    width: 65px;
+    height: 60px;
+    top: 9px;
+    left: 47px;
+  }
+
+  .box-name
+  {
+    width: 72px;
+    height: 36px;
+  }
+
+  .logo-name
+  {
+    position: absolute;
+    top: 20px;
+    left: 124px;
+    font-family: "Hug Me Tight", Helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    color: #fffdfe;
+    text-shadow: 0px 4px 4px #000;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+
+  }
+  /* NAVIGATION */
+
+nav ul{
+  list-style: none;
+}
+
+section{
+  padding: 700px;
+  margin: 700px 0;
+  border: 1px solid #ccc;
+}
+
+  li.home
+  {
+    position: absolute;
+    top: 29px;
+    left: 460px;
+    font-family: "Jost",Helvetica;
+    font-weight: light;
+    color: #fffdfe;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  li.home a:link
+  {
+    color:white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  li.home a:hover
+  {
+    color: #FF9EAA;
+  }
+
+  li.home a:link, a:visited 
+  {
+    color:white;
+    padding: 10px 5px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  li.home a:active 
+  {
+    color:#FF5C8D;
+  }
+  
+
+  li.about
+  {
+    position: absolute;
+    top: 29px;
+    left: 617px;
+    font-family: "Jost",Helvetica;
+    font-weight: light;
+    color: #fffdfe;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  li.about a:link
+  {
+    color:white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  li.about a:hover
+  {
+    color: #FF9EAA;
+  }
+
+  li.about a:link, a:visited 
+  {
+    color:white;
+    padding: 10px 5px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  li.about a:active 
+  {
+    color:#FF5C8D;
+  }
+
+  li.gallery
+  {
+    position: absolute;
+    top: 29px;
+    left: 757px;
+    font-family: "Jost",Helvetica;
+    font-weight: light;
+    color: #fffdfe;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  li.gallery a:link
+  {
+    color:white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  li.gallery a:hover
+  {
+    color: #FF9EAA;
+  }
+
+  li.gallery a:link, a:visited 
+  {
+    color:white;
+    padding: 10px 5px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  li.gallery a:active 
+  {
+    color:#FF5C8D;
+  }
+
+
+  li.contact
+  {
+    position: absolute;
+    top: 29px;
+    left: 920px;
+    font-family: "Jost",Helvetica;
+    font-weight: light;
+    color: #fffdfe;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  li.contact a:link
+  {
+    color:white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  li.contact a:hover
+  {
+    color: #FF9EAA;
+  }
+
+  li.contact a:link, a:visited 
+  {
+    color:white;
+    padding: 10px 5px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  li.contact a:active 
+  {
+    color:#FF5C8D;
+  }
+
+  /* LOGO 2 */
+  .box-logo2
+  {
+    width: 41px;
+    height: 66px;
+  }
+
+  .flower-logo
+  {
+    position:absolute;
+    width: 41px;
+    height: 66px;
+    top: 5px;
+    left: 1400px;
+  }
+
+  /* HOME */
+  .bg-home
+  {
+    width: 1536px;
+    height: 750px;
+  }
+
+.background-home
+{
+    position: absolute;
+    width: 1536px;
+    height: 750px;
+    top: 65px;
+    left: 0px;
+    background-color: #FF9EAA;
+}
+.header-box
+{
+    width: 1536px;
+    height: 554px;   
+}
+.header-bg
+{
+position:absolute;
+width: 1146px;
+height: 554px;
+top: 125px;
+left: 190px;
+background: #FFC0D3;
+border-radius: 50px;
+border: 5px solid #FFF;
+}
+
+.circle
+{
+  width: 416px;
+  height: 396px;
+}
+
+.bg-profile
+{
+position: absolute;
+width: 416px;
+height: 396px;
+top: 177px;
+left: 817px;
+border-radius: 208px/198px;
+background: #FF9EAA;
+}
+
+.box-profile
+{
+  width: 300px;
+  height: 570px;
+}
+
+.profile
+{
+  position: absolute;
+  width: 600px;
+  height: 800px;
+  top: -116px;
+  left: 900px;
+  object-fit: cover;
+}
+
+.box-text
+{
+  width: 458px;
+  height: 144px;
+}
+
+.text1
+{
+  position: absolute;
+  top: 210px;
+  left: 230px;
+  color: #000;
+  font-family: "Jost", Helvetica;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box-text2
+{
+  width: 458px;
+  height: 86px;
+}
+
+.text2
+{
+  position: absolute;
+  width: 458px;
+  top: 370px;
+  left: 230px;
+  font-family: "Jost",Helvetica;
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+
+}
+
+.box-button1
+{
+  width: 249px;
+  height: 72px;
+}
+
+.box-button1
+{
+  position: absolute;
+  width: 249px;
+  height: 72px;
+  top: 572px;
+  left: 249px;
+  background-color: #323239;
+  border-radius: 20px;
+}
+
+.button1-label
+{
+  width: 136px;
+  height: 27px;
+}
+
+.button1-text
+{
+  position: absolute;
+  top: 595px;
+  left: 305px;
+  font-family: "Lemon Milk", Helvetica;
+  color: #fffdfe;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.button1-text a:link
+  {
+    color:white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .button1-text a:hover
+  {
+    color: #FF9EAA;
+  }
+
+  .button1-text a:link, a:visited 
+  {
+    color:white;
+    padding: 10px 5px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .button1-text a:active 
+  {
+    color:#FF5C8D;
+  }
+
+
+
+/* ABOUT */
+.bg-about
+{
+    width: 1536px;
+    height: 750px;
+}
+
+.background-about
+{
+    position: absolute;
+    width: 1536px;
+    height: 800px;
+    top: 750px;
+    left: 0px;
+    background-color: #FFC0D3;
+}
+
+.box-vector1
+{
+  width: 1441px;
+  height: 293px;
+}
+
+.vector1
+{
+  position: absolute;
+  width: 1536px;
+  height: 288px;
+  top: 720px;
+  left: 0px;
+}
+
+.about-box
+{
+    width: 1536px;
+    height: 554px;  
+}
+
+.about-background
+{
+position:absolute;
+width: 1146px;
+height: 554px;
+top: 865px;
+left: 190px;
+background: #FF9EAA;
+border-radius: 50px;
+border: 5px solid #FFF;
+}
+
+.about-img
+{
+  width: 359px;
+  height: 412px;
+}
+
+.about-image
+{
+  position: absolute;
+  width: 359px;
+  height: 412px;
+  top: 940px;
+  left: 238px;
+  border-radius: 30px;
+  object-fit: cover;
+}
+
+.about-text
+{
+  width: 290px;
+  height: 68px;
+}
+
+.about-header
+{
+  position: absolute;
+  top: 950px;
+  left: 880px;
+  color: #FFF;
+  font-family: "LEMON MILK",Helvetica;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.about-text2
+{
+  width: 458px;
+  height: 86px;
+}
+
+.about-information
+{
+  position: absolute;
+  width: 458px;
+  top: 1107px;
+  left: 768px;
+  font-family: "Jost",Helvetica;
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+
+}
+
+/*SKILL*/
+.bg-skill
+{
+    width: 1536px;
+    height: 750px;  
+}
+
+.background-skill
+{
+    position: absolute;
+    width: 1536px;
+    height: 802px;
+    top: 1548px;
+    left: 0px;
+    background-color: #FF9EAA;
+}
+
+.skill-box
+{
+    width: 1536px;
+    height: 554px;  
+}
+
+.skill-background
+{
+    position:absolute;
+    width: 1146px;
+    height: 402px;
+    top: 1625px;
+    left: 190px;
+    background: #FFC0D3;
+    border-radius: 50px;
+    border: 5px solid #FFF;
+}
+
+.skill-name
+{
+  width: 178px;
+  height: 68px;
+}
+
+.skill-header
+{
+  position: absolute;
+  top: 1660px;
+  left: 260px;
+  color: #FFF;
+  font-family: "LEMON MILK",Helvetica;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  text-shadow: 0px 4px 4px #000;
+  line-height: normal;
+}
+
+.skill-text
+{
+  width: 427px;
+  height: 86px;
+}
+
+.skill-info
+{
+position: absolute;
+width: 427px;
+height: 86px;
+top: 1730px;
+left: 260px;
+color: #000;
+font-family: "Jost",Helvetica;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.skill-name2
+{
+  width: 178px;
+  height: 68px;
+}
+
+.skill-header2
+{
+  position: absolute;
+  top: 1660px;
+  left: 950px;
+  color: #FFF;
+  font-family: "LEMON MILK",Helvetica;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  text-shadow: 0px 4px 4px #000;
+  line-height: normal;
+}
+
+.skill-text2
+{
+  width: 427px;
+  height: 86px;
+}
+
+.skill-info2
+{
+position: absolute;
+width: 427px;
+height: 86px;
+top: 1730px;
+left: 950px;
+color: #000;
+font-family: "Jost",Helvetica;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+/* footer*/
+.footer-background
+{
+    position: absolute;
+    width: 1536px;
+    height: 236px;
+    top: 2114px;
+    left: 0;
+    background-color: #524A4E;
+}
+
+.footerbox-logo
+  {
+    width: 65px;
+    height: 60px;
+  }
+
+  .butterfly-logofooter
+  {
+    position:absolute;
+    width: 65px;
+    height: 60px;
+    top: 40px;
+    left: 47px;
+  }
+
+  .box-namefooter
+  {
+    width: 72px;
+    height: 36px;
+  }
+
+  .logo-namefooter
+  {
+    position: absolute;
+    top: 50px;
+    left: 124px;
+    font-family: "Hug Me Tight", Helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    color: #fffdfe;
+    text-shadow: 0px 4px 4px #000;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+
+  .footer-text
+  {
+    width: 373px;
+    height: 86px;
+  }
+
+  .footer-address
+  {
+    position: absolute;
+    width: 373px;
+    top:120px ;
+    left: 47px ;
+    font-family: "Jost-Regular",Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .box-contact
+  {
+    width: 174px;
+    height: 41px;
+  }
+
+  .footer-contact
+  {
+  position: absolute;
+  top: 20px;
+  left: 638px;
+  color: #FFFEFE;
+  font-family: "LEMON MILK",Helvetica;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: normal;
+  }
+
+  /* icons*/
+  .footer-fbbox
+  {
+    width: 45px;
+    height: 45px;
+  }
+
+  .fb-icon
+  {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    top: 70px;
+    left: 638px;
+    object-fit: cover;
+  }
+
+  .footer-fbname
+  {
+    width: 134px;
+    height: 29px;
+  }
+
+  .fbname
+  {
+    position: absolute;
+    top: 80px;
+    left: 710px;
+    font-family: "Jost-Regular",Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fffdfe;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .footer-igbox
+  {
+    width: 45px;
+    height: 45px;
+  }
+
+  .ig-icon
+  {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    top: 150px;
+    left: 638px;
+    object-fit: cover;
+  }
+
+  .footer-igname
+  {
+    width: 134px;
+    height: 29px;
+  }
+
+  .igname
+  {
+    position: absolute;
+    top: 160px;
+    left: 710px;
+    font-family: "Jost-Regular",Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fffdfe;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .footer-gmailbox
+  {
+    width: 45px;
+    height: 45px;
+  }
+
+  .gmail-icon
+  {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    top: 70px;
+    left: 1000px;
+    object-fit: cover;
+  }
+
+  .footer-gmailname
+  {
+    width: 134px;
+    height: 29px;
+  }
+
+  .gmailname
+  {
+    position: absolute;
+    top: 80px;
+    left: 1070px;
+    font-family: "Jost-Regular",Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fffdfe;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .footer-phonebox
+  {
+    width: 45px;
+    height: 45px;
+  }
+
+  .phone-icon
+  {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    top: 150px;
+    left: 1000px;
+    object-fit: cover;
+  }
+
+  .footer-phonename
+  {
+    width: 134px;
+    height: 29px;
+  }
+
+  .phonename
+  {
+    position: absolute;
+    top: 160px;
+    left: 1070px;
+    font-family: "Jost-Regular",Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fffdfe;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+
+  
+

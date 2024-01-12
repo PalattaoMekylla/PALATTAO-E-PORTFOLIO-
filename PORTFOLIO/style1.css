@@ -1,0 +1,954 @@
+body{
+  position: relative;
+  width: 1536px;
+  height: auto;
+}
+
+.header {
+  width: 1536px;
+  height: 75px;
+}
+
+/* NAVIGATION */
+.nav
+{
+  position: absolute;
+  width: 1536px;
+  height: 75px;
+  top: -10px;
+  left: 0px;
+}
+
+.navigation-box
+{
+  position: absolute;
+  width: 1536px;
+  height: 75px;
+  background-color: #524A4E;
+}
+
+/* LOGO */
+.box-logo
+{
+  width: 65px;
+  height: 60px;
+}
+
+.butterfly-logo
+{
+  position:absolute;
+  width: 65px;
+  height: 60px;
+  top: 9px;
+  left: 47px;
+}
+
+.box-name
+{
+  width: 72px;
+  height: 36px;
+}
+
+.logo-name
+{
+  position: absolute;
+  top: 20px;
+  left: 124px;
+  font-family: "Hug Me Tight", Helvetica;
+  font-size: 30px;
+  font-weight: 400;
+  color: #fffdfe;
+  text-shadow: 0px 4px 4px #000;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+
+}
+/* NAVIGATION */
+
+nav ul{
+list-style: none;
+}
+
+section{
+padding: 700px;
+margin: 700px 0;
+border: 1px solid #ccc;
+}
+
+li.home
+{
+  position: absolute;
+  top: 29px;
+  left: 460px;
+  font-family: "Jost",Helvetica;
+  font-weight: light;
+  color: #fffdfe;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+li.home a:link
+{
+  color:white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+li.home a:hover
+{
+  color: #FF9EAA;
+}
+
+li.home a:link, a:visited 
+{
+  color:white;
+  padding: 10px 5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+li.home a:active 
+{
+  color:#FF5C8D;
+}
+
+
+li.about
+{
+  position: absolute;
+  top: 29px;
+  left: 617px;
+  font-family: "Jost",Helvetica;
+  font-weight: light;
+  color: #fffdfe;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+li.about a:link
+{
+  color:white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+li.about a:hover
+{
+  color: #FF9EAA;
+}
+
+li.about a:link, a:visited 
+{
+  color:white;
+  padding: 10px 5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+li.about a:active 
+{
+  color:#FF5C8D;
+}
+
+li.gallery
+{
+  position: absolute;
+  top: 29px;
+  left: 757px;
+  font-family: "Jost",Helvetica;
+  font-weight: light;
+  color: #fffdfe;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+li.gallery a:link
+{
+  color:white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+li.gallery a:hover
+{
+  color: #FF9EAA;
+}
+
+li.gallery a:link, a:visited 
+{
+  color:white;
+  padding: 10px 5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+li.gallery a:active 
+{
+  color:#FF5C8D;
+}
+
+
+li.contact
+{
+  position: absolute;
+  top: 29px;
+  left: 920px;
+  font-family: "Jost",Helvetica;
+  font-weight: light;
+  color: #fffdfe;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+li.contact a:link
+{
+  color:white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+li.contact a:hover
+{
+  color: #FF9EAA;
+}
+
+li.contact a:link, a:visited 
+{
+  color:white;
+  padding: 10px 5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+li.contact a:active 
+{
+  color:#FF5C8D;
+}
+
+/* LOGO 2 */
+.box-logo2
+{
+  width: 41px;
+  height: 66px;
+}
+
+.flower-logo
+{
+  position:absolute;
+  width: 41px;
+  height: 66px;
+  top: 5px;
+  left: 1400px;
+}
+  /*GALLERY PAGE*/
+  .bg-gallery1
+  {
+    width: 1536px;
+    height: 750px;
+  }
+
+.background-gallery1
+{
+    position: absolute;
+    width: 1536px;
+    height: 750px;
+    top: 65px;
+    left: 0px;
+    background-color: #FFC0D3;
+}
+.gallery1-box
+{
+    width: 1536px;
+    height: 554px;   
+}
+.gallery1-bg
+{
+position:absolute;
+width: 1146px;
+height: 554px;
+top: 125px;
+left: 190px;
+background: #FF9EAA;
+border-radius: 50px;
+border: 5px solid #FFF;
+}
+
+.g1
+{
+  width: 655px;
+  height: 425px;
+}
+
+.gallery1-img
+{
+  position: absolute;
+  width: 655px;
+  height: 425px;
+  top: 195px;
+  left: 240px;
+  object-fit: cover;
+}
+
+.g1-name
+{
+  width: 225px;
+  height: 54px;
+}
+
+.gallery1-name
+{
+  position: absolute;
+  top: 190px;
+  left: 1000px;
+  color: #000;
+  font-family: "LEMON MILK",Helvetica;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.g1-content
+{
+  width: 341px;
+  height: 148px;
+}
+
+.gallery1-content
+{
+  position: absolute;
+  width: 341px;
+  top: 300px;
+  left: 950px;
+  color: #000;
+  font-family: "Jost",Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.g1-butt
+{
+  width: 249px;
+  height: 72px;
+}
+
+.gallery1-button
+{
+  position: absolute;
+  width: 249px;
+  height: 72px;
+  top: 550px;
+  left: 1000px;
+  background-color: #323239;
+  border-radius: 20px;
+}
+
+.g1-buttname
+{
+  width: 135px;
+  height: 27px;
+}
+
+.gallery1-buttoname
+{
+  position: absolute;
+  top: 570px;
+  left: 1050px;
+  color: #FFF;
+  font-family: "Lemon milk", Helvetica;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.gallery1-buttoname a:link
+  {
+    color:white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .gallery1-buttoname a:hover
+  {
+    color: #FF9EAA;
+  }
+
+  .gallery1-buttoname a:link, a:visited 
+  {
+    color:white;
+    padding: 10px 5px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .gallery1-buttoname a:active 
+  {
+    color:#FF5C8D;
+  }
+
+
+/*DESIGN 2*/
+.bg-gallery2
+  {
+    width: 1536px;
+    height: 750px;
+  }
+
+.background-gallery2
+{
+  position: absolute;
+  width: 1536px;
+  height: 800px;
+  top: 750px;
+  left: 0px;
+  background-color: #FF9EAA;
+}
+.gallery2-box
+{
+    width: 1536px;
+    height: 554px;   
+}
+.gallery2-bg
+{
+  position:absolute;
+  width: 1146px;
+  height: 554px;
+  top: 865px;
+  left: 190px;
+  background: #FFC0D3;
+  border-radius: 50px;
+  border: 5px solid #FFF;
+}
+
+.box-vector2
+{
+  width: 1441px;
+  height: 324px;
+}
+
+.vector2
+{
+  position: absolute;
+  width: 1536px;
+  height: 324px;
+  top: 1233px;
+  left: 0px;
+}
+
+.g2
+{
+  width: 655px;
+  height: 425px;
+}
+
+.gallery2-img
+{
+  position: absolute;
+  width: 655px;
+  height: 425px;
+  top: 930px;
+  left: 240px;
+  object-fit: cover;
+}
+
+.g2-name
+{
+  width: 225px;
+  height: 54px;
+}
+
+.gallery2-name
+{
+  position: absolute;
+  top: 920px;
+  left: 1000px;
+  color: #000;
+  font-family: "LEMON MILK",Helvetica;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.g2-content
+{
+  width: 341px;
+  height: 148px;
+}
+
+.gallery2-content
+{
+  position: absolute;
+  width: 341px;
+  top: 1090px;
+  left: 950px;
+  color: #000;
+  font-family: "Jost",Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.g2-butt
+{
+  width: 249px;
+  height: 72px;
+}
+
+.gallery2-button
+{
+  position: absolute;
+  width: 249px;
+  height: 72px;
+  top: 1284px;
+  left: 1000px;
+  background-color: #323239;
+  border-radius: 20px;
+}
+
+.g2-buttname
+{
+  width: 135px;
+  height: 27px;
+}
+
+.gallery2-buttoname
+{
+  position: absolute;
+  top: 1305px;
+  left: 1050px;
+  color: #FFF;
+  font-family: "Lemon milk", Helvetica;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.gallery2-buttoname a:link
+  {
+    color:white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .gallery2-buttoname a:hover
+  {
+    color: #FF9EAA;
+  }
+
+  .gallery2-buttoname a:link, a:visited 
+  {
+    color:white;
+    padding: 10px 5px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .gallery2-buttoname a:active 
+  {
+    color:#FF5C8D;
+  }
+
+
+/*DESIGN 3 */
+.bg-gallery3
+{
+    width: 1536px;
+    height: 750px;  
+}
+
+.background-gallery3
+{
+    position: absolute;
+    width: 1536px;
+    height: 802px;
+    top: 1548px;
+    left: 0px;
+    background-color: #FFC0D3;
+}
+
+.gallery3-box
+{
+    width: 1536px;
+    height: 554px;  
+}
+
+.gallery3-background
+{
+    position:absolute;
+    width: 1146px;
+    height: 402px;
+    top: 1625px;
+    left: 190px;
+    background: #FF9EAA;
+    border-radius: 50px;
+    border: 5px solid #FFF;
+}
+
+.g3
+{
+  width: 655px;
+  height: 425px;
+}
+
+.gallery3-img
+{
+  position: absolute;
+  width: 655px;
+  height: 320px;
+  top: 1670px;
+  left: 240px;
+  object-fit: cover;
+}
+
+.g3-name
+{
+  width: 251px;
+  height: 49px;
+}
+
+.gallery3-name
+{
+  position: absolute;
+  top: 1670px;
+  left: 1000px;
+  color: #000;
+  font-family: "LEMON MILK",Helvetica;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.g3-content
+{
+  width: 341px;
+  height: 148px;
+}
+
+.gallery3-content
+{
+  position: absolute;
+  width: 341px;
+  top: 1770px;
+  left: 950px;
+  color: #000;
+  font-family: "Jost",Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.g3-butt
+{
+  width: 249px;
+  height: 72px;
+}
+
+.gallery3-button
+{
+  position: absolute;
+  width: 249px;
+  height: 72px;
+  top: 1915px;
+  left: 1000px;
+  background-color: #323239;
+  border-radius: 20px;
+}
+
+.g3-buttname
+{
+  width: 135px;
+  height: 27px;
+}
+
+.gallery3-buttoname
+{
+  position: absolute;
+  top: 1940px;
+  left: 1050px;
+  color: #FFF;
+  font-family: "Lemon milk", Helvetica;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.gallery3-buttoname a:link
+  {
+    color:white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .gallery3-buttoname a:hover
+  {
+    color: #FF9EAA;
+  }
+
+  .gallery3-buttoname a:link, a:visited 
+  {
+    color:white;
+    padding: 10px 5px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .gallery3-buttoname a:active 
+  {
+    color:#FF5C8D;
+  }
+
+/* footer*/
+.footer-background
+{
+    position: absolute;
+    width: 1536px;
+    height: 236px;
+    top: 2114px;
+    left: 0;
+    background-color: #524A4E;
+}
+
+.footerbox-logo
+  {
+    width: 65px;
+    height: 60px;
+  }
+
+  .butterfly-logofooter
+  {
+    position:absolute;
+    width: 65px;
+    height: 60px;
+    top: 40px;
+    left: 47px;
+  }
+
+  .box-namefooter
+  {
+    width: 72px;
+    height: 36px;
+  }
+
+  .logo-namefooter
+  {
+    position: absolute;
+    top: 50px;
+    left: 124px;
+    font-family: "Hug Me Tight", Helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    color: #fffdfe;
+    text-shadow: 0px 4px 4px #000;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+
+  .footer-text
+  {
+    width: 373px;
+    height: 86px;
+  }
+
+  .footer-address
+  {
+    position: absolute;
+    width: 373px;
+    top:120px ;
+    left: 47px ;
+    font-family: "Jost-Regular",Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .box-contact
+  {
+    width: 174px;
+    height: 41px;
+  }
+
+  .footer-contact
+  {
+  position: absolute;
+  top: 20px;
+  left: 638px;
+  color: #FFFEFE;
+  font-family: "LEMON MILK",Helvetica;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: normal;
+  }
+
+  /* icons*/
+  .footer-fbbox
+  {
+    width: 45px;
+    height: 45px;
+  }
+
+  .fb-icon
+  {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    top: 70px;
+    left: 638px;
+    object-fit: cover;
+  }
+
+  .footer-fbname
+  {
+    width: 134px;
+    height: 29px;
+  }
+
+  .fbname
+  {
+    position: absolute;
+    top: 80px;
+    left: 710px;
+    font-family: "Jost-Regular",Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fffdfe;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .footer-igbox
+  {
+    width: 45px;
+    height: 45px;
+  }
+
+  .ig-icon
+  {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    top: 150px;
+    left: 638px;
+    object-fit: cover;
+  }
+
+  .footer-igname
+  {
+    width: 134px;
+    height: 29px;
+  }
+
+  .igname
+  {
+    position: absolute;
+    top: 160px;
+    left: 710px;
+    font-family: "Jost-Regular",Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fffdfe;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .footer-gmailbox
+  {
+    width: 45px;
+    height: 45px;
+  }
+
+  .gmail-icon
+  {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    top: 70px;
+    left: 1000px;
+    object-fit: cover;
+  }
+
+  .footer-gmailname
+  {
+    width: 134px;
+    height: 29px;
+  }
+
+  .gmailname
+  {
+    position: absolute;
+    top: 80px;
+    left: 1070px;
+    font-family: "Jost-Regular",Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fffdfe;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .footer-phonebox
+  {
+    width: 45px;
+    height: 45px;
+  }
+
+  .phone-icon
+  {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    top: 150px;
+    left: 1000px;
+    object-fit: cover;
+  }
+
+  .footer-phonename
+  {
+    width: 134px;
+    height: 29px;
+  }
+
+  .phonename
+  {
+    position: absolute;
+    top: 160px;
+    left: 1070px;
+    font-family: "Jost-Regular",Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fffdfe;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+

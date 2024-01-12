@@ -1,0 +1,1017 @@
+body{
+    position: relative;
+    width: 1536px;
+    height: auto;
+  }
+
+  .header {
+    width: 1536px;
+    height: 75px;
+  }
+
+  /* NAVIGATION */
+  .nav
+  {
+    position: absolute;
+    width: 1536px;
+    height: 75px;
+    top: -10px;
+    left: 0px;
+  }
+
+  .navigation-box
+  {
+    position: absolute;
+    width: 1536px;
+    height: 75px;
+    background-color: #524A4E;
+  }
+ 
+  /* LOGO */
+  .box-logo
+  {
+    width: 65px;
+    height: 60px;
+  }
+
+  .butterfly-logo
+  {
+    position:absolute;
+    width: 65px;
+    height: 60px;
+    top: 9px;
+    left: 47px;
+  }
+
+  .box-name
+  {
+    width: 72px;
+    height: 36px;
+  }
+
+  .logo-name
+  {
+    position: absolute;
+    top: 20px;
+    left: 124px;
+    font-family: "Hug Me Tight", Helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    color: #fffdfe;
+    text-shadow: 0px 4px 4px #000;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+
+  }
+  /* NAVIGATION */
+
+nav ul{
+  list-style: none;
+}
+
+section{
+  padding: 700px;
+  margin: 700px 0;
+  border: 1px solid #ccc;
+}
+
+  li.home
+  {
+    position: absolute;
+    top: 29px;
+    left: 460px;
+    font-family: "Jost",Helvetica;
+    font-weight: light;
+    color: #fffdfe;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  li.home a:link
+  {
+    color:white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  li.home a:hover
+  {
+    color: #FF9EAA;
+  }
+
+  li.home a:link, a:visited 
+  {
+    color:white;
+    padding: 10px 5px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  li.home a:active 
+  {
+    color:#FF5C8D;
+  }
+  
+
+  li.about
+  {
+    position: absolute;
+    top: 29px;
+    left: 617px;
+    font-family: "Jost",Helvetica;
+    font-weight: light;
+    color: #fffdfe;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  li.about a:link
+  {
+    color:white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  li.about a:hover
+  {
+    color: #FF9EAA;
+  }
+
+  li.about a:link, a:visited 
+  {
+    color:white;
+    padding: 10px 5px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  li.about a:active 
+  {
+    color:#FF5C8D;
+  }
+
+  li.gallery
+  {
+    position: absolute;
+    top: 29px;
+    left: 757px;
+    font-family: "Jost",Helvetica;
+    font-weight: light;
+    color: #fffdfe;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  li.gallery a:link
+  {
+    color:white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  li.gallery a:hover
+  {
+    color: #FF9EAA;
+  }
+
+  li.gallery a:link, a:visited 
+  {
+    color:white;
+    padding: 10px 5px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  li.gallery a:active 
+  {
+    color:#FF5C8D;
+  }
+
+
+  li.contact
+  {
+    position: absolute;
+    top: 29px;
+    left: 920px;
+    font-family: "Jost",Helvetica;
+    font-weight: light;
+    color: #fffdfe;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  li.contact a:link
+  {
+    color:white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  li.contact a:hover
+  {
+    color: #FF9EAA;
+  }
+
+  li.contact a:link, a:visited 
+  {
+    color:white;
+    padding: 10px 5px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  li.contact a:active 
+  {
+    color:#FF5C8D;
+  }
+
+  /* LOGO 2 */
+  .box-logo2
+  {
+    width: 41px;
+    height: 66px;
+  }
+
+  .flower-logo
+  {
+    position:absolute;
+    width: 41px;
+    height: 66px;
+    top: 5px;
+    left: 1400px;
+  }
+
+  /*form*/
+
+  .bg-form
+  {
+    width: 1536px;
+    height: 750px;
+  }
+
+.background-form
+{
+    position: absolute;
+    width: 1536px;
+    height: 750px;
+    top: 65px;
+    left: 0px;
+    background-color: #FF9EAA;
+}
+
+.form-bg
+{
+    width: 800px;
+    height: 599px;    
+}
+
+.form
+{
+    position: absolute;
+    width: 810px;
+    height: 599px;  
+    top: 128px;
+    left: 360px;
+    border-radius: 50px;
+    border: 5px solid #FFF;
+    background: #FEACC5;
+}
+
+.sendmessage
+{
+  width:100%;	
+  position: absolute;
+  top: 100px;
+  color:black;
+
+}
+
+.sendmessage-style
+{
+
+  width:50%;
+	border-radius:20px;
+	padding:20px;
+	margin: 20px auto;
+	font-family:"LEMON MILK", Helvetica;;
+	font-size:16px;
+	line-height:10px;
+	
+}
+
+input[type=text]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius:5px;
+  border:0px !important;
+  outline-style:none;
+  
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 0px;
+  border-radius: 5px;
+  resize: none;
+  outline-style:none;
+}
+
+input[type=button]{
+  width:100%;
+  background-color: #C1ECE4;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size:16px;
+  font-weight:bold;
+}
+
+/*CONTACTS*/
+.bg-contact1
+{
+    width: 1536px;
+    height: 750px;
+}
+
+.background-contact1
+{
+    position: absolute;
+    width: 1536px;
+    height: 800px;
+    top: 710px;
+    left: 0px;
+    background-color: #FFC0D3;
+}
+
+.box-vector3
+{
+  width: 1536px;
+  height: 324px;
+}
+
+.vector3
+{
+  position: absolute;
+  width: 1536px;
+  height: 324px;
+  top: 685px;
+  left: 0px;
+}
+
+.contact1-box
+{
+    width: 1536px;
+    height: 554px;  
+}
+
+.contact1-background
+{
+position:absolute;
+width: 1146px;
+height: 554px;
+top: 865px;
+left: 190px;
+background: #FF9EAA;
+border-radius: 50px;
+border: 5px solid #FFF;
+}
+
+/*fb*/
+.contact-label
+{
+    width: 268px;
+    height: 54px;
+}
+
+.contact-text
+{
+    position: absolute;
+    top: 900px;
+    left: 209px;
+    font-family: "lemon milk",helvetica;
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.icon-contact1
+{
+    width: 150px;
+    height: 150px;
+}
+
+.icon-fb
+{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 970px;
+    left: 250px;
+    object-fit: cover;
+}
+
+.fb-label
+{
+    width: 341px;
+    height: 63px;
+}
+
+.fb-name
+{
+    position: absolute;
+    width: 341px;
+    top: 1020px;
+    left: 400px;
+    color: #FFF;
+    text-align: center;
+    font-family: "Jost",helvetica;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.fb-box
+{
+    width: 249px;
+    height: 72px;
+}
+
+.fb-button
+{
+    position: absolute;
+    width: 249px;
+    height: 72px;
+    top: 1020px;
+    left: 1050px;
+    background-color: #323239;
+    border-radius: 20px;
+}
+
+.fb-text
+{
+    width: 151px;
+    height: 41px;
+}
+
+.fb-link
+{
+    position: absolute;
+    top: 1035px;
+    left: 1095px;
+    color: #FFF;
+    font-family: "LEMON MILK",helvetica;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.fb-link a:link
+  {
+    color:white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .fb-link a:hover
+  {
+    color: #FF9EAA;
+  }
+
+  .fb-link a:link, a:visited 
+  {
+    color:white;
+    padding: 10px 5px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .fb-link a:active 
+  {
+    color:#FF5C8D;
+  }
+
+/*ig*/
+.contact-label2
+{
+    width: 268px;
+    height: 54px;
+}
+
+.contact-text2
+{
+    position: absolute;
+    top: 1150px;
+    left: 209px;
+    font-family: "lemon milk",helvetica;
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.icon-contact2
+{
+    width: 150px;
+    height: 150px;
+}
+
+.icon-ig
+{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 1210px;
+    left: 250px;
+    object-fit: cover;
+}
+
+.ig-label
+{
+    width: 341px;
+    height: 63px;
+}
+
+.ig-name
+{
+    position: absolute;
+    width: 341px;
+    top: 1260px;
+    left: 400px;
+    color: #FFF;
+    text-align: center;
+    font-family: "Jost",helvetica;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.ig-box
+{
+    width: 249px;
+    height: 72px;
+}
+
+.ig-button
+{
+    position: absolute;
+    width: 249px;
+    height: 72px;
+    top: 1260px;
+    left: 1050px;
+    background-color: #323239;
+    border-radius: 20px;
+}
+
+.ig-text
+{
+    width: 151px;
+    height: 41px;
+}
+
+.ig-link
+{
+    position: absolute;
+    top: 1275px;
+    left: 1100px;
+    color: #FFF;
+    font-family: "LEMON MILK",helvetica;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+/*SECTION 3*/
+
+.bg-contact3
+{
+    width: 1536px;
+    height: 750px;  
+}
+
+.background-contact3
+{
+    position: absolute;
+    width: 1536px;
+    height: 802px;
+    top: 1500px;
+    left: 0px;
+    background-color: #FF9EAA;
+}
+
+.contact3-box
+{
+    width: 1536px;
+    height: 554px;  
+}
+
+.contact3-background
+{
+    position:absolute;
+    width: 1146px;
+    height: 554px;
+    top: 1525px;
+    left: 190px;
+    background: #FFC0D3;
+    border-radius: 50px;
+    border: 5px solid #FFF;
+}
+
+/*gmail*/
+.contact-label3
+{
+    width: 268px;
+    height: 54px;
+}
+
+.contact-text3
+{
+    position: absolute;
+    top: 1560px;
+    left: 209px;
+    font-family: "lemon milk",helvetica;
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.icon-contact3
+{
+    width: 150px;
+    height: 150px;
+}
+
+.icon-gmail
+{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 1630px;
+    left: 250px;
+    object-fit: cover;
+}
+
+.gmail-label
+{
+    width: 341px;
+    height: 63px;
+}
+
+.gmail-name
+{
+    position: absolute;
+    width: 341px;
+    top: 1680px;
+    left: 400px;
+    color: #FFF;
+    text-align: center;
+    font-family: "Jost",helvetica;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.gmail-box
+{
+    width: 249px;
+    height: 72px;
+}
+
+.gmail-button
+{
+    position: absolute;
+    width: 249px;
+    height: 72px;
+    top: 1675px;
+    left: 1050px;
+    background-color: #323239;
+    border-radius: 20px;
+}
+
+.gmail-text
+{
+    width: 151px;
+    height: 41px;
+}
+
+.gmail-link
+{
+    position: absolute;
+    top: 1690px;
+    left: 1090px;
+    color: #FFF;
+    font-family: "LEMON MILK",helvetica;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+/*phone*/
+.contact-label4
+{
+    width: 268px;
+    height: 54px;
+}
+
+.contact-text4
+{
+    position: absolute;
+    top: 1853px;
+    left: 209px;
+    font-family: "lemon milk",helvetica;
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.phone-contact3
+{
+    width: 150px;
+    height: 150px;
+}
+
+.icon-phone
+{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 2300px;
+    left: 250px;
+    object-fit: cover;
+}
+
+.phone-label
+{
+    width: 341px;
+    height: 63px;
+}
+
+.phone-name
+{
+    position: absolute;
+    width: 341px;
+    top: 2100px;
+    left: 400px;
+    color: #FFF;
+    text-align: center;
+    font-family: "Jost",helvetica;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+  /* footer*/
+.footer-background
+{
+    position: absolute;
+    width: 1536px;
+    height: 236px;
+    top: 2114px;
+    left: 0;
+    background-color: #524A4E;
+}
+
+.footerbox-logo
+  {
+    width: 65px;
+    height: 60px;
+  }
+
+  .butterfly-logofooter
+  {
+    position:absolute;
+    width: 65px;
+    height: 60px;
+    top: 40px;
+    left: 47px;
+  }
+
+  .box-namefooter
+  {
+    width: 72px;
+    height: 36px;
+  }
+
+  .logo-namefooter
+  {
+    position: absolute;
+    top: 50px;
+    left: 124px;
+    font-family: "Hug Me Tight", Helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    color: #fffdfe;
+    text-shadow: 0px 4px 4px #000;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+
+  .footer-text
+  {
+    width: 373px;
+    height: 86px;
+  }
+
+  .footer-address
+  {
+    position: absolute;
+    width: 373px;
+    top:120px ;
+    left: 47px ;
+    font-family: "Jost-Regular",Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .box-contact
+  {
+    width: 174px;
+    height: 41px;
+  }
+
+  .footer-contact
+  {
+  position: absolute;
+  top: 20px;
+  left: 638px;
+  color: #FFFEFE;
+  font-family: "LEMON MILK",Helvetica;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: normal;
+  }
+
+  /* icons*/
+  .footer-fbbox
+  {
+    width: 45px;
+    height: 45px;
+  }
+
+  .fb-icon
+  {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    top: 70px;
+    left: 638px;
+    object-fit: cover;
+  }
+
+  .footer-fbname
+  {
+    width: 134px;
+    height: 29px;
+  }
+
+  .fbname
+  {
+    position: absolute;
+    top: 80px;
+    left: 710px;
+    font-family: "Jost-Regular",Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fffdfe;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .footer-igbox
+  {
+    width: 45px;
+    height: 45px;
+  }
+
+  .ig-icon
+  {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    top: 150px;
+    left: 638px;
+    object-fit: cover;
+  }
+
+  .footer-igname
+  {
+    width: 134px;
+    height: 29px;
+  }
+
+  .igname
+  {
+    position: absolute;
+    top: 160px;
+    left: 710px;
+    font-family: "Jost-Regular",Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fffdfe;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .footer-gmailbox
+  {
+    width: 45px;
+    height: 45px;
+  }
+
+  .gmail-icon
+  {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    top: 70px;
+    left: 1000px;
+    object-fit: cover;
+  }
+
+  .footer-gmailname
+  {
+    width: 134px;
+    height: 29px;
+  }
+
+  .gmailname
+  {
+    position: absolute;
+    top: 80px;
+    left: 1070px;
+    font-family: "Jost-Regular",Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fffdfe;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .footer-phonebox
+  {
+    width: 45px;
+    height: 45px;
+  }
+
+  .phone-icon
+  {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    top: 150px;
+    left: 1000px;
+    object-fit: cover;
+  }
+
+  .footer-phonename
+  {
+    width: 134px;
+    height: 29px;
+  }
+
+  .phonename
+  {
+    position: absolute;
+    top: 160px;
+    left: 1070px;
+    font-family: "Jost-Regular",Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fffdfe;
+    letter-spacing: 0;
+    line-height: normal;
+  }
